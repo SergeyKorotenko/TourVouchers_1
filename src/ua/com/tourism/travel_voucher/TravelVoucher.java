@@ -157,7 +157,8 @@ public class TravelVoucher {
 
     /**
      * Get voucher id
-     * @return  number of voucher
+     *
+     * @return number of voucher
      */
     public int getId() {
         return id;
@@ -165,6 +166,7 @@ public class TravelVoucher {
 
     /**
      * Get voucher price
+     *
      * @return price of voucher
      */
     public double getPrice() {
@@ -173,6 +175,7 @@ public class TravelVoucher {
 
     /**
      * Get number of days
+     *
      * @return Number of days in travel voucher
      */
     public int getNumberOfDays() {
@@ -180,7 +183,6 @@ public class TravelVoucher {
     }
 
     /**
-     *
      * @return type of transportation
      */
     public TransportationType getTransportation() {
@@ -188,7 +190,6 @@ public class TravelVoucher {
     }
 
     /**
-     *
      * @return type of voucher
      */
     public VoucherType getVoucherType() {
@@ -196,7 +197,6 @@ public class TravelVoucher {
     }
 
     /**
-     *
      * @param id
      */
     public void setId(int id) {
@@ -204,7 +204,6 @@ public class TravelVoucher {
     }
 
     /**
-     *
      * @param voucherType
      */
     public void setVoucherType(VoucherType voucherType) {
@@ -212,7 +211,6 @@ public class TravelVoucher {
     }
 
     /**
-     *
      * @param transportationType
      */
     public void setTransportation(TransportationType transportationType) {

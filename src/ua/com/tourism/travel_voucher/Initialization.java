@@ -24,6 +24,9 @@ public class Initialization {
         sortVouchersList(travelList, TravelVoucher.TransportationType.AirTransport);
         printVouchersList(travelList);
 
+        printVouchersList(choiceVouchersFromList(travelList, 200, 600, TravelVoucher.VoucherType.Excursion,
+                TravelVoucher.TransportationType.RoadTransport, 2, 5, TravelVoucher.FoodType.ALL));
+
         sortVouchersList(travelList, TravelVoucher.VoucherType.Shopping);
         printVouchersList(travelList);
 
